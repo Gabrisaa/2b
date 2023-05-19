@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <h2>CEFET-MG CAMPUS Varginha - Curso Técnico</h2>
+        </section>
+    </header>
+    <main>
+        <nav>
+            <a href="index.html">
+                <h3>Inicio</h3>
+            </a>
+            <a href="curso.html">
+                <h3>Curso</h3>
+            </a>
+            <a href="faq.html">
+                <h3>FAQ</h3>
+            </a>
+            <a href="contato.html">
+                <h3>Contato</h3>
+            </a>
+    </main>
+    <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Contato</legend>
+            <div>
+                <p> Nome:
+                    <input type="text" name="texto" placeholder="João">
+                </p id="botao"nput type="email" name="email" placeholder="name@email">
+                </p>
+                <p>
+                    <label for="sexo"> Masculino </label>
+                    <input type="radio" name="sexo" id="masc" value="masc">
+
+                    <label for="sexo"> Feminino </label>
+                    <input type="radio" name="sexo" id="fem" value="fem">
+                </p>
+                <p>
+                    <label for="estado">Estado/Cidade</label>
+                    <select name="estado" id="">
+                        <option value="MG">MG</option>
+                        <option value="AC">AC</option>
+                        <option value="ES">ES</option>
+                        <option value="AM">AM</option>
+                        id="botao" <option value="MA">MA</option>
+                    </select>
+                    <input type="text" name="cidade" placeholder="Varginha"><br />
+                </p>
+                <p>Selecione um arquivo
+                    <input type="file" name="file" placeholder="Varginha"><br />
+                </p>
+                <p>
+                    Sugestões
+                    <br>
+                    <textarea name="sug" id="sug" cols="50" rows="10" required></textarea>
+                </p>
+                <button type="submit">Enviar</button>
+                <button type="submit">Limpar</button>
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <p>
+            © copyleft
+        </p>
+    </footer>
+</body>
+
+</html>

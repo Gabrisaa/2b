@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+
+}
+
+:root {
+    --primary: #2e2a2b;
+    --white: white;
+    --black: black;
+}
+
+main div h3 {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+header section {
+    background-image: url(./img/Pos-Cloud-Computing-Fundo.jpg);
+    height: 8rem;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+header section h2 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+main nav {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+}
+
+main p {
+    font-size: 1.4rem;
+}
+
+main nav a {
+    text-decoration: none;
+}
+
+main nav h3 {
+    font-size: 2rem;
+    padding: 0.5rem 5rem;
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0rem black;
+}
+
+main.uau div {
+    margin: 0.4rem;
+}
+
+.contato form fieldset p button {
+    max-width: 20%;
+    height: 5rem;
+    width: 5rem;
+    border: 0.7 black;
+    background-color:  #2B75E2;
+    border-radius: 50%;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    cursor: pointer;
+}
+main.uau div h3 {
+    padding: 0.6rem;
+}
+
+footer {
+    background-color: var(--primary);
+    height: 3rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    height: 100%;
+    padding: 0.4rem;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table tr th,
+table tr td {
+    border: 0.2rem solid var(--black);
+    padding: 0.3rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 3rem;
+    table-layout: fixed;
+}
+
+th {
+    font-weight: bold;
+}
+
+section {
+    margin: 0.5rem;
+    height: 100vh;
+}
+
+section ol li {
+    margin: 1rem;
+}
+
+section ol li a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+
+#r1 a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+#r2 a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+#r3 a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+#r4 a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+#r5 a {
+    text-decoration: none;
+    color: var(--black);
+}
